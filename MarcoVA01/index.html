@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Pollos Hermanos</title>
+</head>
+<body>
+    <h1>Los Pollos Hermanos</h1>
+    <p>Bem-vindo ao Los Pollos Hermanos, o melhor restaurante de frango frito da cidade! Aqui, servimos pratos deliciosos que vão te deixar querendo mais. Experimente nossas especialidades e sinta o sabor único!</p>
+    
+    <h2>História</h2>
+    <p>Fundada por Gus Fring e seu parceiro, Max Arciniega, Los Pollos Hermanos começou como um negócio legítimo que se destacou pela qualidade dos seus produtos e pelo atendimento excepcional. A empresa se tornou famosa na região, especialmente pelo seu frango frito crocante, preparado com uma receita secreta de temperos.</p>
+
+    <h2>Cardápio</h2>
+    <ul>
+        <div class="frango">
+            <li><h3>Frango frito no balde</h3></li>
+            <p>Experimente nosso frango frito crocante, preparado com uma receita secreta de temperos que traz um sabor irresistível a cada mordida. Marinado por horas para garantir suculência e sabor. Venha e descubra por que somos conhecidos como os melhores da cidade!</p>
+        </div>
+        
+        <div class="acompanhamentos">
+            <li><h3>Batatas Fritas</h3></li>
+            <p>Nossas batatas fritas são cortadas à mão e fritas até ficarem douradas e crocantes por fora, mantendo o interior macio e saboroso. Perfeitas para acompanhar qualquer prato ou para saborear sozinhas !</p>
+        </div>
+        
+        <div class="bebidas">
+            <li><h3>Chopp artesanal</h3></li>
+            <p>Refresque-se com nosso chopp artesanal, cuidadosamente elaborado para oferecer um sabor encorpado e aroma inconfundível. Cada gole traz uma explosão de frescor e qualidade, perfeito para acompanhar suas refeições ou apreciar sozinho. Saúde!</p>
+        
+        </div>
+    </ul>
+
+
+   
+    <form action="resultadoBusca.html" method="GET">
+        <label for="search">Pesquisar prato:</label>
+            <input type="text" id="search" name="search" required>
+                
+            <fieldset>
+                <legend>Categoria:</legend>
+                
+                <label>
+                    <input type="checkbox" name="category" value="frango">Frango
+                </label>
+                
+                <label>
+                    <input type="checkbox" name="category" value="acompanhamentos">Acompanhamentos
+                </label>
+                
+                <label>
+                    <input type="checkbox" name="category" value="bebidas">Bebidas
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Faixa de preço:</legend>
+                
+                <label for="min-price">Mínimo:</label>
+                    <input type="number" id="min-price" name="min-price">
+                <label for="max-price">Máximo:</label>
+                    <input type="number" id="max-price" name="max-price">
+            </fieldset>
+        
+            <button type="submit">Pesquisar</button>
+</body>
+</html>
