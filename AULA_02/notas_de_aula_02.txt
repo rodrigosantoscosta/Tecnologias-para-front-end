@@ -1,0 +1,18 @@
+28 de agosto 2024
+Tecnologia para front end - Aula 02
+
+*Inicio do front html e css
+    - Site do W3C 
+    - organização de pastas 
+    - arquivo index.html, arquivo principal
+    - identação
+    - tags, cabeçalhos e suas hierarquias
+    - Extensões do VSCode: Live Server, HTML Preview.
+    - WordWrap opção pra quebra de linha no vscode
+    - quebra de linha com tag <br>
+    - charsets, UTF-8 e linguagens com tag <meta charset = UTF-8> html lang.
+    - host de sites(hospedagem), dominios, dominiobr
+    - tag <b> bold, negrito
+    - outras tags de formatação https://www.w3schools.com/html/html_formatting.asp
+    
+

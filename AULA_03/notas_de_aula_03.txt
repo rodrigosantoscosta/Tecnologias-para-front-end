@@ -1,0 +1,5 @@
+Site da disciplina: https://angelofdiasg.tech/tecfront202424/
+
+- introdução ao CSS e suas tags
+- tag style apos o head
+- HTML listas

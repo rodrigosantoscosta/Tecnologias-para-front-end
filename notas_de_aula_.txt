@@ -1,0 +1,8 @@
+25/09/2024
+
+- Front-end mentor https://www.frontendmentor.io/
+- TED (desafio simples)
+- Link do site da disciplina https://angelofdiasg.tech/tecfront202424/
+
+23/10/2024
+- pequena revisao sobre formularios, identificadores, labels e classes. Camelcasing
