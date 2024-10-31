@@ -7,4 +7,14 @@
 23/10/2024
 - pequena revisao sobre formularios, identificadores, labels e classes. Camelcasing
 - inputs radiobutton, checkbox
-- Lembrar de olhar o github da disciplina
+- Lembrar de olhar o github da disciplina(ainda nao tem -30/10/2024)
+
+30/10/2024
+- Citou brevemente git
+- O que é CSS?
+- O que é um framework?
+- DevTools(F12)
+- Citou React como framework de desenvolvimento web
+- Diferenças entre estilos de cada navegador
+- Boas praticas para criação de div, class e id
+-
