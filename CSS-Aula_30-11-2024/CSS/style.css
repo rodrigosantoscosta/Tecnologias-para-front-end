@@ -1,0 +1,70 @@
+/* Reseta as margens e o padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Isso garante que o padding e margin não afetem o tamanho dos elementos */
+}
+
+/* Configura o corpo da página para usar flexbox, centralizando o conteúdo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para o card */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+    text-align: center;
+    border-radius: 12px; /* Bordas mais arredondadas */
+    background-color: #fff; /* Cor de fundo do card */
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave ao passar o mouse */
+}
+
+/* Efeito de hover para o card */
+.card:hover {
+    transform: translateY(-10px); /* Levanta o card quando o mouse passa */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Estilos para a imagem dentro do card */
+#card_img {
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Faz a imagem cobrir o espaço sem distorcer */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+/* Estilos para os botões */
+button {
+    background-color: #FF00AA; /* Cor de fundo vibrante para os botões */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px; /* Espaçamento entre os botões */
+}
+
+/* Efeito de hover para os botões */
+button:hover {
+    background-color: #ff33cc; /* Cor de fundo mais clara no hover */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão */
+}
+
+/* Estilos específicos para o nome dentro do card */
+.card_nome {
+    color: rgb(165, 42, 116); /* Cor bonita para o nome */
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold; /* Deixa o nome mais destacado */
+}

@@ -17,4 +17,7 @@
 - Citou React como framework de desenvolvimento web
 - Diferenças entre estilos de cada navegador
 - Boas praticas para criação de div, class e id
+- justify-content
+
+06/11/2024
 -
